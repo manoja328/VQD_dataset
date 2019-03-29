@@ -1,6 +1,6 @@
 # VQD_dataset
 
-The VQD dataset contains two splits train and val. Each split contains the following examples fields:
+The VQD dataset zipped files contains two splits train and val in json file format. Each split contains the following examples fields:
 
 ```
 {'question': 'Where is the dining table in the image?',
