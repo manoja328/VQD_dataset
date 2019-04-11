@@ -1,6 +1,6 @@
 # VQD_dataset
 
-The VQD dataset zipped files contains two splits train and val in json file format. Each split contains the following examples fields:
+The VQD dataset zipped files contains two splits train and val in json file format. All the images used are from MSCOCO 2014 train and val split.  Each entries in the dataset contains the following examples fields:
 
 ```
 {'question': 'Where is the dining table in the image?',
@@ -14,4 +14,4 @@ The VQD dataset zipped files contains two splits train and val in json file form
  'split': 'val'}
 
 ````
-All the field should be pretty self explanatory. The 'gtbox' field refers to the Grouth-truth bounding box in the image.
+The 'gtbox' field refers to the Grouth-truth bounding box in the image.
