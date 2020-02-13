@@ -1,10 +1,10 @@
 # VQD_dataset
 
-The VQD dataset zipped files contains two splits train and val in json file format. All the images used are from MSCOCO 2014 train and val split.  Each entries in the dataset contains the following examples fields:
+The VQD dataset zipped files contains two splits train and val in json file format. All the images used are from MSCOCO 2014 train and val split. The ground truth boxes are *in  x , y , w, h* format from top-left. Each entries in the dataset contains the following examples fields:
 
 ```
 {'question': 'Where is the dining table in the image?',
- 'gtbox': [[373, 459, 134, 15]], # in  x , y , w, h from top-left
+ 'gtbox': [[373, 459, 134, 15]],
  'question_type': 'simple',
  'question_id': 57,
  'image_id': 164,
