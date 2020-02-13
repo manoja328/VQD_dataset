@@ -4,7 +4,7 @@ The VQD dataset zipped files contains two splits train and val in json file form
 
 ```
 {'question': 'Where is the dining table in the image?',
- 'gtbox': [[373, 459, 134, 15]],
+ 'gtbox': [[373, 459, 134, 15]], # in  x , y , w, h from top-left
  'question_type': 'simple',
  'question_id': 57,
  'image_id': 164,
